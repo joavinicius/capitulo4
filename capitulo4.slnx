@@ -1,3 +1,5 @@
 <Solution>
-  <Project Path="capitulo4/capitulo4.csproj" />
+  <Project Path="ModelProject/ModelProject.csproj" />
+  <Project Path="PersistenceProject/PersistenceProject.csproj" />
+  <Project Path="ViewProject/ViewProject.csproj" />
 </Solution>
