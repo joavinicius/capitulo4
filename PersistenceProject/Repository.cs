@@ -56,5 +56,16 @@ namespace PersistenceProject
             this.produtos[this.produtos.IndexOf(produto)] = produto;
             return produto;
         }
+
+        public NotaEntrada InsertNotaEntrada(NotaEntrada notaEntrada)
+        {
+            this.notasEntrada.Add(notaEntrada);
+            return notaEntrada;
+        }
+
+        public void RemoveNotaEntrada(NotaEntrada notaEntrada)
+        {
+            this.notasEntrada.Remove(notaEntrada);
+        }
     }
 }
