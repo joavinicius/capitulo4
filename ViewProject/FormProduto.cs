@@ -8,11 +8,16 @@ using System.Windows.Forms;
 
 namespace ViewProject
 {
-    public partial class FormProduto : System.Windows.Forms.Form
+    public partial class FormProduto : Form
     {
         public FormProduto()
         {
             InitializeComponent();
+        }
+
+        private void BtnGravar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
